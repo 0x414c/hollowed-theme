@@ -16,15 +16,15 @@
 				<key>background</key>
 				<string>#201e15</string>
 				<key>caret</key>
-				<string>#fffce3</string>
+				<string>#eae6d0</string>
 				<key>foreground</key>
-				<string>#ebdec6</string>
+				<string>#e5d8c1</string>
 				<key>invisibles</key>
 				<string>#49483e</string>
 				<key>lineHighlight</key>
 				<string>#28251a</string>
 				<key>selection</key>
-				<string>#3f3e28</string>
+				<string>#3f3c2b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -45,10 +45,8 @@
 			<string>keyword.operator.class, constant.other, source.php.embedded.line</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
-				<string>#ebdec6</string>
+				<string>#e5d8c1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -66,24 +64,26 @@
 			<key>name</key>
 			<string>Number, Constant, Tag Attribute, Embedded</string>
 			<key>scope</key>
-			<string>constant.numeric, constant.language, support.constant, constant.character, punctuation.section.embedded, keyword.other.unit</string>
+			<string>constant.numeric, constant.language, constant.character, punctuation.section.embedded, keyword.other.unit</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic bold</string>
+				<string>  bold italic</string>
 				<key>foreground</key>
-				<string>#b24c15</string>
+				<string>#b74d14</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Class, Support</string>
+			<string>Class</string>
 			<key>scope</key>
-			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
+			<string>entity.name.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#798e20</string>
+				<string>#7e9321</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -135,7 +135,7 @@
 				<key>fontStyle</key>
 				<string> bold </string>
 				<key>foreground</key>
-				<string>#b73619</string>
+				<string>#ba3c1f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -146,11 +146,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#831440</string>
+				<string>#841a26</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
-				<string>#fff5e5</string>
+				<string>#ebdec6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -161,9 +161,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#04528c</string>
+				<string>#11588e</string>
 				<key>foreground</key>
-				<string>#fff5e5</string>
+				<string>#ebdec6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -174,11 +174,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#872a6c</string>
+				<string>#89295f</string>
 				<key>fontStyle</key>
-				<string></string>
+				<string> italic</string>
 				<key>foreground</key>
-				<string>#fff6e5</string>
+				<string>#ebdec6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -213,9 +213,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#319385</string>
+				<string>#349955</string>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string> italic underline</string>
 			</dict>
 		</dict>
 		<dict>
@@ -227,6 +227,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#317d93</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -261,9 +263,22 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> bold </string>
+				<string> bold  italic</string>
 				<key>foreground</key>
-				<string>#839922</string>
+				<string>#e59710</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support Class</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7e9321</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 	</array>
