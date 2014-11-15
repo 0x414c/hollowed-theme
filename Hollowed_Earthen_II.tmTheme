@@ -70,7 +70,7 @@
 				<key>fontStyle</key>
 				<string>  bold italic</string>
 				<key>foreground</key>
-				<string>#b74d14</string>
+				<string>#ba4e14</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b73619</string>
+				<string>#ba3619</string>
 				<key>fontStyle</key>
 				<string> bold  </string>
 			</dict>
@@ -185,7 +185,7 @@
 			<key>name</key>
 			<string>Tag Name</string>
 			<key>scope</key>
-			<string>entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>entity.name.tag, meta.tag, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -200,7 +200,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#b74d19</string>
+				<string>#b74f17</string>
 				<key>fontStyle</key>
 				<string>  bold</string>
 			</dict>
@@ -213,9 +213,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#349955</string>
+				<string>#7e9321</string>
 				<key>fontStyle</key>
-				<string> italic underline</string>
+				<string> italic  </string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,8 +277,41 @@
 			<dict>
 				<key>foreground</key>
 				<string>#7e9321</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attribute Name</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e59710</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Script</string>
+			<key>scope</key>
+			<string>entity.name.tag.script.html</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1e1b12</string>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inline JS</string>
+			<key>scope</key>
+			<string>source.js.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1e1b12</string>
 			</dict>
 		</dict>
 	</array>
