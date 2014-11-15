@@ -12,9 +12,9 @@
 		<string>#75715E</string>
 	</dict>
 	<key>name</key>
-	<string>Hollowed</string>
+	<string>Hollowed Earthen I</string>
 	<key>semanticClass</key>
-	<string>theme.dark.hollowed</string>
+	<string>theme.dark.hollowed_earthen_i</string>
 	<key>settings</key>
 	<array>
 		<dict>
