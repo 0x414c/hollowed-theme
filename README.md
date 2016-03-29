@@ -1,13 +1,15 @@
-hollowed-theme
-==============
+# hollowed-theme
 
 *Yet another* **dark** color schemes set for Sublime Text.
 
-Hollowed: Earthen II
-![alt tag](https://raw.github.com/0x414c/hollowed-theme/master/pics/sHEII.png)
+## Hollowed: Earthen II
 
-Hollowed: Nightcall
-![alt tag](https://raw.github.com/0x414c/hollowed-theme/master/pics/sHN.png)
+![Earthen II](https://github.com/0x414c/hollowed-theme/raw/master/pics/sHEII.png)
 
-Hollowed: Earthen I
-![alt tag](https://raw.github.com/0x414c/hollowed-theme/master/pics/sHEI.png)
+## Hollowed: Nightcall
+
+![Nightcall](https://github.com/0x414c/hollowed-theme/raw/master/pics/sHN.png)
+
+## Hollowed: Earthen I
+
+![Earthen I](https://github.com/0x414c/hollowed-theme/raw/master/pics/sHEI.png)
